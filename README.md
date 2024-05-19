@@ -18,14 +18,14 @@ Welcome to the official GitHub repository for chatnet.lk, an innovative web-base
   - Security: AES for encryption, PBKDF2 for password hashing
 
 **Installation**
-```bash
-  1.	Clone the repository:
-    #git clone https://github.com/Lakiya7/chatnet.lk.git
 
-  2.  Navigate to the project directory:
-    #cd chatnet
+# Clone the repository:
+    git clone https://github.com/Lakiya7/chatnet.lk.git
 
-```
+# Navigate to the project directory:
+    cd chatnet
+
+
 ------------------------------------------------------------------------------------------------
 
 

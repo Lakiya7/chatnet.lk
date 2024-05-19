@@ -64,22 +64,22 @@ Welcome to the official GitHub repository for chatnet.lk, an innovative web-base
 
   nano /etc/httpd/conf.d/site1.conf
  
-  <VirtualHost *:80>
+  ```
+<VirtualHost *:80>
       ServerName Chatnet.lk
       DocumentRoot /var/www/html/Chat_Net
-  
       <Directory "/var/www/html/Chat_Net">
           Require all granted
       </Directory>
   </VirtualHost>
-
+```
 # Adjust Permissions
-
+```
   chmod -R 775 /path/to/chat_net/upload
-
+```
 # Running the Application
 
-  After installation, start your Apache server and visit the application through the configured domain, e.g., **http://chatnet.local**. You should be able to register a new user account and start chatting immediately.
+  After installation, start your Apache server and visit the application through the configured domain, e.g., **http://127.0.0.1**. You should be able to register a new user account and start chatting immediately.
 
 
 ------------------------------------------------------------------------------------------------
